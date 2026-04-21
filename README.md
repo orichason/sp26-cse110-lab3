@@ -1,3 +1,3 @@
-# Lab 2 - HTML & DevTools
+# Lab 3 - CSS and Agile Intro
 
-Published site: https://orichason.github.io/Lab2_Starter/
+Published site: https://orichason.github.io/sp26-cse110-lab3
