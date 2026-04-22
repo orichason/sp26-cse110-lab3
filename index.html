@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team 7 — Pomodoro Timer First Brainstorm</title>
     <link rel="icon" href="favicon.ico">
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- In-document <style> block (required) -->
+    <style>
+        /* Ensure the page always covers at least one full viewport height.
+           Uses vh — our fourth unique relative unit. */
+        body {
+            min-height: 100vh;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,7 +39,7 @@
     <main>
         <section id="meeting-details">
             <h2>Meeting Details</h2>
-            <p><strong>Date:</strong> <span>April 10, 2025</span></p>
+            <p><strong>Date:</strong> <span class="highlight">April 10, 2025</span></p>
             <p><strong>Time:</strong> 4:00 PM – 5:30 PM</p>
             <p><strong>Location:</strong> CSE Building Room 2154, UC San Diego</p>
             <p><strong>Meeting Type:</strong> First Brainstorm Session</p>
@@ -50,7 +60,7 @@
             <h3>Members Absent</h3>
             <ul>
                 <li><b>Liam Fitzgerald</b> — DevOps Engineer <br>
-                <em>Excused: attending a family emergency out of state.</em></li>
+                <em style="color: #b91c1c;">Excused: attending a family emergency out of state.</em></li>
             </ul>
         </section>
 
